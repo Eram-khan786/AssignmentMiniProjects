@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+div h1 {
+    text-align: center;
+    margin: 3rem;
+    font-size: 5rem;
+}
+
+div p {
+    text-align: center;
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+.flex button {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    box-shadow: 1rem 1rem 2rem black;
+}
+
+.flex button:hover {
+    background-color: rgb(13, 12, 13);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="input" placeholder="write a text" />
+    <button id="btn">reverseBtn</button>
+    <p id="output"></p>
+    <script>
+      let input = document.getElementById("input");
+      let reverseBtn = document.getElementById("btn");
+      let output = document.getElementById("output");
+    
+     reverseBtn.addEventListener("click",()=>{
+        let inputValue=input.value;
+        let result=reverse(inputValue)
+        output.innerHTML=`<h1>${result}</h1>`
+     })
+      
+      function reverse(a) {
+        // let a = "Success comes to those who work hard";
+        b = a.split(" ");
+        let newString = "";
+        let i = b.length - 1;
+        while (i >= 0) {
+          newString += b[i] + " ";
+          i -= 1;
+        }
+        return newString
+      }
+    </script>
+  </body>
+</html>
