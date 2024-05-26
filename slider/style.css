@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.mainContainer{
+    /* margin-inline: 15rem; */
+    margin: 2rem;
+    margin-left: 16rem;
+}
+#image{
+    width: 80%;
+    height: 80vh;
+    border-radius: 5rem;
+}
+.name{
+    font-size: 1.5rem;
+}
+.number{
+    font-size: 2rem;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+background-color: white;
+    border: none;
+    font-size: 2rem;
+    color: gray;
+}
+.btn:hover{
+    color: rgb(7, 7, 7);
+}

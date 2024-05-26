@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(129, 218, 218);
+}
+
+h1{
+    text-align: center;
+    padding: 3rem;
+}
+.para{
+    font-size: 2rem;
+}
+.loremform{
+     display: flex;
+     justify-content: center;
+     gap: 0.3rem;
+
+}
+.number{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    width: 5rem;
+}
+.btn{
+    padding: 1.1rem;
+    font-size: 1rem;
+    padding: 0.4rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.lorem-text{
+    margin-inline: 4rem;
+    margin-bottom: 2rem;
+}
+.result{
+    margin-block: 1rem;
+    margin-inline: 15rem;
+    font-size: 1rem;
+    font-weight: bold;
+}

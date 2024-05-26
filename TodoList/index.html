@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Enter your name..." class="name" />
+      <input type="email" placeholder="Enter your email..." class="email" />
+      <input type="number" placeholder="Enter your number..." class="number" />
+      <button class="btn">Add Row</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone No.</th>
+            <th class="action">Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </form>
+    <script>
+      let formTag = document.querySelector("form");
+      let tableTag = document.querySelector("table");
+      let tbodyTag = document.querySelector("tbody");
+
+      function Add(details) {
+        details.preventDefault(); // prevents page reloading
+
+        let name = document.querySelector(".name").value;
+        let email = document.querySelector(".email").value;
+        let number = document.querySelector(".number").value;
+
+        // Form should not be submitted if any of the input fields are empty
+        if (!name || !email || !number) {
+          alert("Please fill all the feilds");
+          return;
+        }
+        // Phone number should be of 10 digits
+        if (number.length != 10 ) {
+          alert("length of phone number should be 10");
+          return;
+        }
+
+        tbodyTag.innerHTML += `
+          <tr>
+            <td>${name}</td>
+            <td>${email}</td>
+            <td>${number}</td>
+            <td><button class="removeBtn">Remove</button></td>
+          </tr>
+          `;
+
+        // The inputs should be cleared after adding a row
+        // document.querySelector(".name").value = "";
+        // document.querySelector(".email").value = "";
+        // document.querySelector(".number").value = "";
+
+        // tbodyTag.reset;
+        formTag.reset()
+      }
+      formTag.addEventListener("submit", Add);
+
+      function Remove(details) {
+        if (details.target.classList.contains("removeBtn")) {
+          details.target.parentElement.parentElement.remove();
+        }
+      }
+      tableTag.addEventListener("click", Remove);
+
+      // Two persons should not have the same email and phone number
+    </script>
+  </body>
+</html>

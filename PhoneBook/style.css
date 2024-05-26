@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+    font-size: 3.5rem;
+}
+
+.flex{
+    display: flex;
+    width: 100wh;
+
+    
+}
+.flexFirstContainer{
+    flex-basis: 40%;
+    margin-left: 4rem;
+    border: 1px solid black;
+    box-shadow: 5rem 5rem 10rem black;
+    
+    }
+
+.heading1{
+    text-align: center;
+    margin-block: 1rem;
+}
+.margin{
+    margin-left: 1rem;
+}
+
+input{
+    width: 30rem;
+    padding: 0.4rem;
+}
+.addContact {
+    /* text-align: end;
+     */
+    margin-left: 20rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.flexSecondContainer {
+    flex-basis: 50%;
+    margin-left: 4rem;
+    margin-left: 2rem;
+    /* border: 1px solid black; */
+    /* box-shadow: 5rem 5rem 5rem black; */
+    box-shadow: 5rem 5rem 10rem black;
+}
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+} */
+.editAndResponseButton{
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    color:white;
+
+}
+.marginRight{
+    margin-inline: 0.6rem;
+}
+.flex2{
+    display: flex;
+    gap:1.5rem;
+    border: 1px solid black;
+    /* padding: 1rem; */
+    font-weight: bold;
+    word-wrap: break-word;
+        
+}
+.leftBorder{
+    border-right: 1px solid black;
+    padding: 0.3rem;
+    width: 5rem;
+}
+.dataEditBtn{
+    width: 3rem;
+    height: 2rem;
+}
+.dataDeleteBtn{
+    width: 4rem;
+    height: 2rem;
+}

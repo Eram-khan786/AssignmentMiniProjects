@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 50%;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Question{
+    font-size: 1.3rem;
+}
+.answer {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.margin{
+    margin-bottom: 1rem;
+}
+.plusBtn{
+    font-size: 2rem;
+    cursor: pointer;
+}

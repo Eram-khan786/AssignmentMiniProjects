@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.para {
+    text-align: center;
+    margin: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.margin h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.margin {
+    margin-inline: 5rem;
+}
+
+.flex img {
+    width: 30rem;
+    border-radius: 15px;
+    margin-right: 3rem;
+}
+
+.mainHeading {
+    width: 15rem;
+    padding-inline: 3rem;
+    padding-block: 5px;
+    background-color: gray;
+}
+
+/* .mainHeading:hover {
+    background-color: white;
+} */
+
+.box {
+    width: 26.7rem;
+    padding: 5px;
+    margin-top: 0.3rem;
+    background-color: white;
+}
+
+.marginTop {
+    margin-top: 0.5rem;
+}
+
+h2 {
+    background-color: white;
+}
+
+.box p {
+    background-color: white;
+}

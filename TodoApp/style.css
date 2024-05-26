@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-block: 5rem;
+}
+.input{
+    width: 75%;
+    font-size: 1.3rem;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.paraFlex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+    margin-block: 0.3rem;
+    border: 1px solid black;
+}
+.formWidth{
+    /* display: flex; */
+    width: 23rem;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color:white;
+    border-radius: 10px;
+}
+.btn{
+    width: 4.9rem;
+    font-size: 1rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    background-color: rgb(191, 247, 247);
+    border: none;
+}

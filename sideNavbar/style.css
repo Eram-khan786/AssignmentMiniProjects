@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    /* Corrected from '100wh' to '100vw' */
+    height: 100vh;
+}
+
+.fa-bars {
+    padding: 1rem;
+    font-size: 3rem;
+    color: rgb(92, 8, 80);;
+    /* margin-left: 74rem; */
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.left {
+    background-color: rgb(92, 8, 80);
+    color: rgb(241, 237, 237);
+    padding: 3rem;
+}
+
+.hidden {
+    /* display: none; */
+    visibility: hidden;
+}

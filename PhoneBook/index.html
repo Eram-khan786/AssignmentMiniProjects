@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>PhoneBook Application</h1>
+    <div class="flex">
+      <div class="flexFirstContainer">
+        <div class="margin">
+          <p class="heading1">ADD NEW CONTACT</p>
+          <br />
+          <label for="name">First Name</label>
+          <br />
+          <input
+            id="firstName"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter first name"
+            required
+          />
+          <br />
+          <br />
+          <label for="lastName">Last Name</label>
+          <br />
+          <input
+            id="lastName"
+            type="text"
+            id="lastName"
+            name="name"
+            placeholder="Enter last name"
+            required
+          />
+          <br />
+          <br />
+          <label for="number">Phone number</label>
+          <br />
+          <input
+            id="number"
+            type="number"
+            id="name"
+            name="number"
+            placeholder="Enter phone number"
+            required
+          />
+          <br />
+          <br />
+          <label for="email">Email</label>
+          <br />
+          <input
+            id="email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter email"
+            required
+          />
+          <br />
+          <br />
+          <label for="Address">Address</label>
+          <br />
+          <input
+            type="text"
+            id="Address"
+            name="Address"
+            placeholder="Enter your address"
+            required
+          />
+          <br />
+          <br />
+          <button class="addContact">Add Contact</button>
+          <br />
+          <br />
+        </div>
+      </div>
+      <div class="flexSecondContainer">
+        <p class="heading1">LIST OF CONTACTS</p>
+        <div class="marginRight">
+          <div class="flex2">
+            <p class="leftBorder  dataFirstName">First Name</p>
+            <p class="leftBorder dataLastName">Last Name</p>
+            <p class="leftBorder dataPhoneNumber">Phone Number</p>
+            <p class="leftBorder dataEmail">Email</p>
+            <p class="leftBorder dataAddress">Address</p>
+            <div class="leftBorder">
+              <button class="editAndResponseButton dataEditBtn">Edit</button>
+            </div>
+            <div class="leftBorder">
+              <button class="editAndResponseButton dataDeleteBtn">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
